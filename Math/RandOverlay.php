@@ -11,7 +11,7 @@ use PB\Component\Overlay\FunctionOverlayInterface;
  *
  * @link https://secure.php.net/manual/en/function.rand.php
  */
-class Rand implements FunctionOverlayInterface
+class RandOverlay implements FunctionOverlayInterface
 {
     /**
      * Call rand function.
