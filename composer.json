@@ -1,0 +1,22 @@
+{
+    "name": "pawel-brzezinski/overlay-component",
+    "type": "library",
+    "description": "Component with overlays for standard PHP function. Helpful at developing a testable code.",
+    "authors": [
+        {
+            "name": "Paweł Brzeziński",
+            "email": "pawel.brzezinski@smartint.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PB\\Component\\Overlay\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "php": "^5.5 || ^7.0"
+    }
+}
