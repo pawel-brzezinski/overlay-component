@@ -2,6 +2,7 @@
     "name": "pawel-brzezinski/overlay-component",
     "type": "library",
     "description": "Component with overlays for standard PHP function. Helpful at developing a testable code.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Paweł Brzeziński",
