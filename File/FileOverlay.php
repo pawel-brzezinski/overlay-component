@@ -43,6 +43,10 @@ class FileOverlay implements FunctionOverlayInterface
      */
     public function unlink($filename, $context = null)
     {
+        if (null === $context) {
+            return unlink($filename);
+        }
+
         return unlink($filename, $context);
     }
 }
