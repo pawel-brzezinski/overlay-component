@@ -28,6 +28,10 @@ class FileOverlay implements FunctionOverlayInterface
      */
     public function fileGetContents($filename, $use_include_path = false, $context = null, $offset = 0, $maxlen = null)
     {
+        if (null === $maxlen) {
+            return file_get_contents($filename, $use_include_path, $context, $offset);
+        }
+
         return file_get_contents($filename, $use_include_path, $context, $offset, $maxlen);
     }
 
