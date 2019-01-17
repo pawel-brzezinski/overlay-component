@@ -11,7 +11,7 @@ use PB\Component\Overlay\FunctionOverlayInterface;
  *
  * @link https://secure.php.net/manual/en/function.file-get-contents.php
  */
-class FileGetContents implements FunctionOverlayInterface
+class FileGetContentsOverlay implements FunctionOverlayInterface
 {
     /**
      * Call file_get_contents function.
